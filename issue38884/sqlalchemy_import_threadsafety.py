@@ -38,3 +38,6 @@ threads.append(threading.Thread(target=t4))
 
 for thread in threads:
     thread.start()
+
+# TODO: I wonder if I can reuse sqlalchemy.util.preloaded._ModuleRegistry
+# in this example to see how the registry works.
