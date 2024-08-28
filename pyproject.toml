@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sqlalchemy20tryouts"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Vergeev <vernier_06_curios@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
